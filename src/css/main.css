@@ -12,6 +12,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background: #B4CDCD;
 }
 
 /*
@@ -263,4 +264,64 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+#wrapper{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 2px solid;
+    background: white;
+}
+.logo{
+    height: 52px;
+    width: 52px;
+
+}
+#navBar {
+  height: 139px;
+  line-height: 139px;
+
+}
+#navBar li {
+  display: inline;
+
+}
+#navBar ul {
+  margin: 0px;
+}
+#navBar .mid {
+ margin-left: 35px;
+ margin-right: 35px;
+
+}
+#navBar a {
+  text-decoration: none;
+}
+
+#navBar a:hover {
+  text-decoration: underline;
+
+}
+#content{
+    width: 593px;
+    margin-left: 25px;
+    padding-right: 30px;
+}
+p{
+    text-indent: 50px;
+}
+#first{
+    margin-top: 0px;
+}
+#sidebar{
+    width: 367px;
+    height: auto;
+    float: right;
+    background-color: blue;
+}
+#title h1{
+    margin-left: 25px;
 }
